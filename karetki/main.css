@@ -1,0 +1,48 @@
+    body {
+      height: 2000px;
+      /* подсказка должна работать при прокрутке */
+    }
+
+    #ball {
+      width: 400px;
+      border: 1px solid brown;
+    }
+
+
+
+    p {
+      text-align: justify;
+      margin: 10px 3px;
+    }
+	
+	.selected-before {
+
+		position: relative;
+	}
+	
+	.selected-before::before {
+     content: ""; 
+	 position: absolute;
+	 width: 20px;
+	 height: 20px;
+	 background: red;
+	 border-radius: 50% 0 50% 50%;
+	 top: 15px;
+	 left: -20px;
+   }
+  
+
+	.selected-after {
+
+		position: relative;
+	}  
+   	.selected-after::after {
+     content: ""; 
+	 position: absolute;
+	 width: 20px;
+	 height: 20px;
+	 background: red;
+	 border-radius: 0 50% 50% 50%;
+	 top: 15px;
+	 right: -20px;
+   }

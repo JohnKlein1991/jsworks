@@ -1,0 +1,4 @@
+/*Отмена выделения для Chrome*/
+h1 {
+	user-select: none;
+}

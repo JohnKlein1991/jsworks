@@ -1,0 +1,9 @@
+.audiojs {
+	width: 550px;
+	height: 40px;
+	overflow: hidden;
+	font-family: monospace;
+	font-size: 30px;
+	background-image: linear-gradient(#700000, #857d7d);
+	
+}

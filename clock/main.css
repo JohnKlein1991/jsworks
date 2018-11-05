@@ -1,0 +1,21 @@
+body {
+	background: #1a191e;
+	
+}
+
+#clock {
+	font-size: 150px;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	text-shadow: 0 0 50px #2a14ff;
+	
+	padding-top: 100px;
+	padding-bottom: 0px;
+	height: 300px;
+	width: 800px;
+	border: 5px solid #2a14ff;
+	border-radius: 0 50%;
+	font-family: Overpass Mono, Oxygen Mono;
+
+}
